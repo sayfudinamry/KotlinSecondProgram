@@ -1,4 +1,6 @@
 fun main(args: Array<String>) {
+    //Array methods
+    //sort()
     val simpsonsA = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     simpsonsA.sort()
     for (simpson in simpsonsA) {
@@ -37,5 +39,6 @@ fun main(args: Array<String>) {
     println("Max = "+ simpsonsE.max())
     println("First = " + simpsonsE.first())
     println("Last = " + simpsonsE.last())
-    println(simpsonsE.contains("Ma
+    println(simpsonsE.contains("Marge"))
+
 }
